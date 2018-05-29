@@ -34,6 +34,11 @@ sudo yum install nginx
 nginx -v
 ```
 
+### nginx 서비스 등록
+```
+sudo service nginx start
+```
+
 ### Amazon Linux(2018.03 릴리즈)에서 문제
 
 /etc/yum.repos.d의 amzn-main.repo, amzn-updates.repo repository 때문에 최신버전 설치가 안됨.
