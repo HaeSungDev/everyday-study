@@ -2,7 +2,7 @@
 
 ## nginx 최신 버전 설치 방법
 
-* 아래 내용을 vi 또는 nano 에디터 등을 이용해서 /etc/yum.repos.d/nginx.repo로 저장.
+### 아래 내용을 vi 또는 nano 에디터 등을 이용해서 /etc/yum.repos.d/nginx.repo로 저장.
 
 baseurl의
 
@@ -24,17 +24,17 @@ gpgcheck=0
 enabled=1
 ```
 
-* 아래 명령어로 설치
+### 아래 명령어로 설치
 ```
 sudo yum install nginx
 ```
 
-* 설치 후 버전확인
+### 설치 후 버전확인
 ```
 nginx -v
 ```
 
-* Amazon Linux(2018.03 릴리즈)에서 문제
+### Amazon Linux(2018.03 릴리즈)에서 문제
 
 /etc/yum.repos.d의 amzn-main.repo, amzn-updates.repo repository 때문에 최신버전 설치가 안됨.
 
