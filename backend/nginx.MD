@@ -45,3 +45,11 @@ sudo service nginx start
 
 설정으로 막는 방법도 있으나 잘 작동하지 않아서 nginx 설치시에만 잠시 amzn-main.repo와 amzn-update.repo 파일을 다른 위치로 옮기거나
 다른 확장자로 변경해서 설치하면 됨.
+
+## nginx 유용한 팁
+
+### 설정 파일 수정 시 문법이 올바른지 확인
+
+```
+sudo nginx -t
+```
