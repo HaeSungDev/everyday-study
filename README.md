@@ -1,5 +1,4 @@
-EVERYDAY-STUDY
-==============
+#EVERYDAY-STUDY
 
 매일 매일 공부하는 내용을 정리하는 프로젝트 입니다.
 
