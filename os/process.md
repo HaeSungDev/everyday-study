@@ -52,3 +52,8 @@ ready queue --dispatch--> run --> end --> terminated
 PCB에 저장하고 다시 실행할때 cpu register에 복구한다.
 
 context switching시에는 cpu가 다른 연산을 수행할 수 없으므로 overhead가 생긴다.
+
+## process creation
+
+대부분의 운영체제에서는 프로세스 생성 시 부모 프로세스가 자식 프로세스를 생성하여 트리의 형태를 이룬다.
+각 프로세스는 고유한 번호인 process id(pid)로 구분된다.
